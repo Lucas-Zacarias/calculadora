@@ -38,7 +38,7 @@ public class Calculadora {
 		}
 
 	private static Integer multiplicar(Integer primerNumero, Integer segundoNumero){
-	        Integer suma = new Integer(primerNumero+segundoNumero);
+	        Integer suma = new Integer(primerNumero*segundoNumero);
 	        return suma;
 }
 
