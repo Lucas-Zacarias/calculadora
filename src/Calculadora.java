@@ -26,12 +26,26 @@ public class Calculadora {
 					break;
 			case 2: resultado = a+b;
 					break;
-			case 3: resultado = a/b;
+			case 3: resultado = dividir(a,b);
 					break;
-			case 4: resultado = a*b;
+			case 4: resultado = multiplicar(a,b);
 					break;
 		}
 		
 		System.out.println("El resultado es " + resultado.toString());
+		
+		}
+
+private static Integer multiplicar(Integer primerNumero, Integer segundoNumero){
+	        Integer suma = new Integer(primerNumero+segundoNumero);
+	        return suma;
+}
+
+private static Integer dividir(Integer primerNumero, Integer segundoNumero){
+	Integer division=0;
+	if(segundoNumero!=0){
+		 division = new Integer (primerNumero/segundoNumero);	
 	}
+	return division;
+}
 }
