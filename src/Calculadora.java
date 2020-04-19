@@ -10,8 +10,8 @@ public class Calculadora {
 		Scanner teclado = new Scanner(System.in);
 
 		do {
-			System.out.println("Ingrese su operación" + '\n' + "1 Para sumar" + '\n' + "2 Para restar " + '\n'
-					+ "3 Para multiplicar" + '\n' + "4 Para dividir");
+			System.out.println("Ingrese su operaciÃ³n" + '\n' + "1 Para restar" + '\n' + "2 Para sumar " + '\n'
+					+ "3 Para dividir" + '\n' + "4 Para multiplicar");
 
 			opcion = teclado.nextInt();
 
@@ -22,13 +22,13 @@ public class Calculadora {
 		b = teclado.nextInt();
 	
 		switch(opcion){
-			case 1: resultado = a+b;
+			case 1: resultado = a-b;
 					break;
-			case 2: resultado = a-b;
+			case 2: resultado = a+b;
 					break;
-			case 3: resultado = a*b;
+			case 3: resultado = a/b;
 					break;
-			case 4: resultado = a/b;
+			case 4: resultado = a*b;
 					break;
 		}
 		
