@@ -1,0 +1,13 @@
+Respuesta trabajo práctico programación basica 2
+
+5)
+1. Git no nos permitio hacer el push porque se modificaron cosas que habian sido modificados en otro commit
+2. Antes de hacer el push, cada uno debe hacer su trabajo que no tenga relacion entre si, lo añade al area de preparado (git add -a), realiza la confirmación (git commit -m "mensaje") y luego se podra realizar el push.
+3. Dividir bien el trabajo y mantenerse actualizado con los push de los demas colaboradores
+
+6)
+1. Creo una nueva rama llamada develop y nos posiciono en ella.
+
+9)
+1. Comparo la rama master con la de cada colaborador, se verifico si habia conflictos o cambios y luego habilito el merge request que unio las ramas en el master, borrando las 2 ramas creadas anteriormente.
+2. Para evitar conflictos hariamos que las ramas tengan un trabajo diferentes asi evitamos que se toquen los codigos de cada colaborador
